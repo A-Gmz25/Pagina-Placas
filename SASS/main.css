@@ -15,12 +15,12 @@
 }
 #header .header__logo {
   background-color: black;
-  padding: 10px;
-  box-shadow: 2px 4px black;
-  color: white;
+  padding: 2.5px;
+  box-shadow: 2px 2px black;
 }
-#header .header__logo a {
+#header .header__logo img {
   text-decoration: none;
+  height: 3.5rem;
 }
 #header .header__menu ul {
   display: flex;
