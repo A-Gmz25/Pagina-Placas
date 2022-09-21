@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #header {
+    background-color: #C0D6E4;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    .header__logo {
+      background-color: black;
+      padding: 10px;
+      box-shadow: 2px 4px black;
+      color: white;
+  
+      a {
+        text-decoration: none;
+      }
+    }
+  
+    .header__menu ul {
+      display: flex;
+      list-style: none;
+  
+      li a {
+        text-decoration: none;
+        color: black;
+        margin: 0 5px;
+        background-color: #91CEF2;
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 2px 4px black;
+  
+        &:hover {
+          background-color: black;
+          color: aqua;
+        }
+      }
+    }
+  }
+  
+  #main {
+    background-image: url(../assets/img/muchasplacas.jpeg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  
+    .main__titulo {
+      background-color: black;
+      color: whitesmoke;
+      box-shadow: 3px 4px #91CEF2;
+      margin: 10px;
+      font-size: 40px;
+  
+      &:hover {
+        background-color: #91CEF2;
+        color: black;
+        box-shadow: 3px 4px white;
+        font-size: 38px;
+      }
+    }
+  
+    .main__texto {
+      background-color: white;
+      color: black;
+      font-size: 22px;
+      font-style: italic;
+      text-decoration: underline;
+    }
+  }
+  
+  #section {
+    background-color: #91CEF2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    height: 800px;
+  
+    .section__item {
+      h3 {
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+        margin: 3px;
+      }
+  
+      p {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        margin: 2px;
+      }
+  
+      img {
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 25px;
+        box-shadow: 2px 3px 2px black;
+  
+        &:hover {
+          padding: 1px;
+          border-radius: 20px;
+          box-shadow: 1px 2px 1px 3px black;
+          background-color: white;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  
+  #tabla {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+  
+    thead th {
+      border: 3px solid;
+      background-color: #91CEF2;
+      font-size: 18px;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  
+    tr td {
+      border: 2px solid;
+      border-radius: 5px;
+      background-color: #C0D6E4;
+      font-size: 15px;
+    }
+  }
+  
+  .tabla__img {
+    height: 75%;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  
+    img {
+      border: 1px solid black;
+      border-radius: 10px;
+      box-shadow: 2px 3px 2px 5px black;
+    }
+  }
+  
+  #titulo__imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+  }
+  
+  .section__img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    height: 500px;
+  }
+  
+  .imagenes .img__todas {
+    height: 100%;
+    width: auto;
+  }
+  
+  #body__nos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .titulo__nos {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 28px;
+    text-decoration: underline;
+  }
+  
+  .texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: #91CEF2;
+  }
+  
+  .sec__img {
+    display: flex;
+    justify-content: center;
+    background-color: #91CEF2;
+  
+    img {
+      border: 1px solid black;
+      border-radius: 10px;
+      margin: 10px;
+    }
+  }
+  
+  .sec__texto {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #footer {
+    height: 300px;
+    width: 1fr;
+    animation: contactanos 7s linear 0s infinite;
+  
+    h4 {
+      display: flex;
+      justify-content: center;
+      font-size: 28px;
+      text-decoration: underline;
+      padding: 10px;
+      animation: contactanos 7s linear 0s infinite;
+    }
+  
+    .formulario {
+      .texto {
+        animation: contactanos 7s linear 0s infinite;
+        font-size: 18px;
+  
+        .input {
+          height: 28px;
+          padding: 15px;
+          margin-top: 2px;
+          margin: 2px;
+          border: 1px solid black;
+          border-radius: 25px;
+          box-shadow: 2px 2px 3px black;
+          outline: none;
+          display: flex;
+  
+          &:focus {
+            background-color: black;
+            color: white;
+            border-color: white;
+          }
+        }
+  
+        .transition {
+          transition: width 0.4s ease-in-out;
+  
+          &:focus {
+            width: 100%;
+          }
+        }
+      }
+  
+      p {
+        font-size: 16px;
+        border: 2px solid;
+        display: inline-block;
+        border-radius: 18px;
+  
+        &:hover {
+          background-color: black;
+          color: white;
+          box-shadow: 1px 2px 2px black;
+          border-radius: 8px;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+  .carouselc {
+    height: 100px;
+    width: 100%;
+  }
+  
+  @keyframes contactanos {
+    0% {
+      background-color: #EBF5FB;
+    }
+  
+    10% {
+      background-color: #D6EAF8;
+    }
+  
+    20% {
+      background-color: #AED6F1;
+    }
+  
+    30% {
+      background-color: #85C1E9;
+    }
+  
+    40% {
+      background-color: #5DADE2;
+    }
+  
+    50% {
+      background-color: #3498DB;
+    }
+  
+    60% {
+      background-color: #2E86C1;
+    }
+  
+    70% {
+      background-color: #2874A6;
+    }
+  
+    70% {
+      color: white;
+    }
+  
+    80% {
+      background-color: #21618C;
+    }
+  
+    90% {
+      background-color: #1B4F72;
+    }
+  
+    90% {
+      color: white;
+    }
+  
+    100% {
+      background-color: #1A5276;
+    }
+  }
