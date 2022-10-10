@@ -99,7 +99,7 @@
       }
   
       p {
-        font-size: 20px;
+        font-size: 2rem;
         text-align: center;
         padding: 10px;
         margin: 2px;
@@ -195,8 +195,10 @@
     justify-content: center;
     margin: 20px;
     padding: 10px;
-    font-size: 28px;
+    font-size: 2.2rem;
     text-decoration: underline;
+    background-color: #91CEF2;
+
   }
   
   .texto {
@@ -204,10 +206,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-size: 17px;
+    font-size: 1.28rem;
     margin-bottom: 20px;
     font-weight: bold;
     background-color: #91CEF2;
+    gap: 1.2rem;
   }
   
   .sec__img {
@@ -224,11 +227,14 @@
   
   .sec__texto {
     text-align: center;
-    margin-top: 30px;
-    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 2rem;
+    padding: 8px;
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 1.28rem;
     font-weight: bold;
+    background-color: #91CEF2;
+
   }
   
   #footer {
@@ -282,6 +288,7 @@
         border: 2px solid;
         display: inline-block;
         border-radius: 18px;
+        animation: contactanos 7s linear 0s infinite;
   
         &:hover {
           background-color: black;
@@ -294,21 +301,22 @@
     }
   }
   
-  .carouselc {
-    height: 30rem;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightblue;
-    img{
-      width: auto;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  .grid__fotos{
+    background-image: url(../assets/img/universo.jpg);
+    .texto__img{
+      font-size: 1.7rem;
+      text-decoration: underline;
+      color: white;
+      img{
+        height: 30rem;
+        margin: 0.8rem;
+        padding: 0.2rem;
+        border: 0.15rem solid white;
+        border-radius: 3rem;
+      }
     }
   }
+    
 
   
   @keyframes contactanos {
