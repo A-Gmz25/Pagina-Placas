@@ -300,6 +300,7 @@
       }
     }
   }
+
   
   .grid__fotos{
     background-image: url(../assets/img/universo.jpg);
@@ -316,6 +317,35 @@
       }
     }
   }
+
+  .titulo__protecciones{
+    text-align: center;
+    font-size: 1.95rem;
+  }
+
+  
+
+  .formulario__contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #91CEF2;
+    text-decoration: underline;
+  }
+
+  .card__footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .texto__card{
+      color: black;
+      text-decoration: underline;
+      font-size: 2rem;    }
+    }
+    
     
 
   

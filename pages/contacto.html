@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../SASS/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="header">
+        <div class="header__logo">
+          <img src="../assets/img/Logo2.jpeg" alt="">
+        </div>
+
+        <div class="header__menu">
+            <ul>
+                <li ><a href="../index.html">Inicio</a></li>
+                <li ><a href="../pages/protecciones.html">Protecciones</a></li>    
+                <li ><a href="../pages/imagenes.html">Imagenes</a></li>
+                <li ><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li ><a href="../pages/contacto.html">Contacto</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+
+    <form class="formulario__contacto">
+        <div class="form-group formulario__contacto">
+          <label for="exampleFormControlInput1">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group formulario__contacto">
+          <label for="exampleFormControlSelect1">Seleccione el Producto que le interesa</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Placa Aveo</option>
+            <option>Protección de Bateria</option>
+            <option>Placa Sonic</option>
+            <option>Placa Vento</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="form-group formulario__contacto">
+          <label for="exampleFormControlTextarea1">Dejenos sus comentarios</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn__form">Large button</button>
+      </form>
+      <div class="card text-bg-dark card__footer">
+        <img src="../assets/img/muchasplacas.jpeg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title texto__card">Placa Aveo</h5>
+          <p class="card-text texto__card">Estas placas fueron colocadas entre 2009-2017</p>
+        </div>
+      </div>
+</body>
+</html>
